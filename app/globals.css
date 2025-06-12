@@ -17,6 +17,18 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+
+  .cat {
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes bounce {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(10px);}
+  100% {transform: translateY(0px);}
 }
 
 body {
